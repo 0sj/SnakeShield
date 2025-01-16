@@ -48,7 +48,7 @@ def add_banned_ids():
 # Handle banned users' messages and timeout inappropriate ones
 async def handle_banned_users(message):
     # Check if the message contains "snake" and if the user is banned
-    if "snake" in message.content.lower(): #and message.author.id in bannedidlist:
+    if "snake" in message.content.lower() and message.author.id in bannedidlist:
         print(f"Message from {message.author.name} found.")
 
         # Send a random response to the user
