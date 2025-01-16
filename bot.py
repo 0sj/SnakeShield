@@ -16,9 +16,11 @@ jaydnid = 947418695192436756
 smallsid = 429634654190960650
 bannedidlist = [jaydnid, smallsid]
 
-open()
-#i just used grok for this lol
-sexual_words = [ ]  # Add actual inappropriate words here
+with open('badwords.txt', 'r') as file:
+    sexual_words = file.readlines()
+    sexual_words = [line.strip() for line in sexual_words]  # Remove newline characters
+
+
 
 # Possible responses for banned users
 possible_reply = [
