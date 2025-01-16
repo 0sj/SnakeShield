@@ -13,6 +13,7 @@ client = discord.Client(intents=intents)
 jaydnid = 947418695192436756
 smallsid = 429634654190960650
 bannedidlist = [jaydnid, smallsid]
+#i just used grok for this lol
 sexual_words = [    "sex",
     "intercourse",
     "oral",
