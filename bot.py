@@ -165,28 +165,94 @@ sexual_words = [    "sex",
     "sexuality",
     "sexual identity",
     "fartbox",
-    "stink"
+    "stink",
+    "hole"
     ]  # Add actual inappropriate words here
 
 # Possible responses for banned users
 possible_reply = [
-    "Please stop.", "Let's keep it friendly.", "Can we take a break from this?", "I’d prefer if you stopped.", 
-    "Please respect the rules.", "This conversation is over for now.", "Let’s not do that.", "I don’t appreciate that.", 
-    "Let’s be kind to each other.", "It’s time to cool down.", "Please be mindful.", "Can we move on?", 
-    "Let’s keep the chat respectful.", "I’m not comfortable with that.", "Please think before you speak.", 
-    "Let's focus on something else.", "I’m not engaging with that right now.", "Please give it a rest.", 
-    "We need to keep things positive.", "Let's avoid that kind of conversation.", "Please don’t do that.", 
-    "Let’s keep the chat safe for everyone.", "Let’s respect each other’s space.", "Can you please stop?", 
-    "We should all be kind here.", "I’m going to have to ask you to stop.", "Please be more considerate.", 
-    "This isn’t the right place for that.", "Let’s keep it fun and light.", "I’d prefer if you didn’t do that.", 
-    "Please be respectful of others.", "We all need to be kind here.", "Let’s stick to the rules.", 
-    "Kindness goes a long way.", "That’s not really okay.", "Please stop, we’re all here to have a good time.", 
-    "Let’s try to keep the atmosphere positive.", "Let’s be respectful and kind to everyone.", 
-    "This isn’t the time or place for that.", "Please be mindful of the community guidelines.", 
-    "I’m going to have to ask for a little more respect.", "Let’s keep things friendly and welcoming.", 
-    "I don’t think that’s appropriate right now.", "Please take a moment to think about that.", 
-    "Let’s keep it civil.", "Please respect others in the chat.", "Let’s stick to the conversation at hand."
+    "Did you just try to 1v1 me with that move?", "Did you forget to press the 'win' button?", 
+    "I’ve seen NPCs with better decision-making.", "That’s the kind of play that gets you banned in ranked.", 
+    "Your aim is like a ping of 999, all over the place.", "You call that a strategy? I’ve seen bots with better tactics.", 
+    "Is that your best? My grandma could do better in a speedrun.", "That move was so bad, even the game crashed.", 
+    "Are you even trying, or just pressing buttons?", "I’ve seen better plays in tutorial mode.", 
+    "You’re like the AFK teammate in every match.", "Was that a tactic or were you just mashing your keyboard?", 
+    "That was so bad, the enemy team sent you a sympathy message.", "Your game sense is as bad as your internet connection.", 
+    "Bro, you’re about as useful as a broken controller.", "That wasn’t a play, that was a disaster waiting to happen.", 
+    "If that was your ultimate move, I’m glad it’s on cooldown.", "That was so slow, even lag would’ve beaten you.", 
+    "Is this your first time playing? You sure about that?", "You wouldn’t even hit a target if it was standing still.", 
+    "Did you take a detour through the noob zone?", "Not even a bot would mess up that badly.", 
+    "You’ve got more mistakes than a speedrun glitch.", "Is this a *tactical* retreat or just bad gameplay?", 
+    "Did you just throw your controller at the screen and hope for a win?", "I’ve seen better plays in low-level matchmaking.", 
+    "You’ve got a better chance at winning a coin flip than winning this game.", "Are you trying to play or just watching the game happen?", 
+    "That was like a *level 1* noob trying to solo a raid boss.", "I’ve seen better tactics in a mobile game tutorial.", 
+    "Bro, you’re playing like you just discovered the WASD keys.", "Is that your strategy, or did you just forget what the game is?", 
+    "Did you forget that pressing all the buttons doesn’t make you a pro?", "You’re about as useful as a healing potion in a speedrun.", 
+    "The only thing you’re good at is feeding the enemy team.", "Your skills are as weak as a low-level armor set.", 
+    "You’re playing like you’ve never touched a game before.", "That was so bad, even the game gave up on you.", 
+    "Is that a plan or were you just hoping for a lucky shot?", "Your gameplay is like a lag spike—totally unpredictable.", 
+    "I’ve seen AI players with more creativity than that move.", "You just activated my trap card... and then walked into it.", 
+    "You’re the kind of player who gets stuck on tutorial stages.", "You’re not even a speed bump, you're a whole traffic jam.", 
+    "That play was a bigger fail than a noob in ranked matches.", "Nice job, you just triggered the *rage quit* emote.", 
+    "You’ve got the reflexes of a lagging server.", "That was a *strategic* disaster. 10/10 would not recommend.", 
+    "I’ve seen bots play smarter than that.", "If I had a nickel for every time you missed, I’d be buying upgrades.", 
+    "You’re as useful as a broken respawn timer.", "I’ve seen bots perform better than that strategy.", 
+    "Did you just roll for stats or was that random chaos?", "That move was so bad, even the enemy team sent a thank-you note.", 
+    "You’ve got the aim of a potato and the strategy of a banana.", "That’s one way to throw the game, I guess.", 
+    "I’ve seen better coordination in a 3v3 match of Rock, Paper, Scissors.", "Is that your special tactic? Because it’s not working.", 
+    "your so common your like Khostov!! ",
+    "Did you just miss that super? That’s like shooting a Thunderlord into a wall.",
+    "I’ve seen more kills from a level 1 Guardian than you just got in that strike.",
+    "Are you running *that* exotic? You might as well be wielding a green weapon.",
+    "You have the accuracy of a Titan trying to jump over a gap on the Dreadnaught.",
+    "That was a worse play than trying to solo a Nightfall without any heavy ammo.",
+    "I’ve seen better strategies in the Tower during a Crucible downtime.",
+    "Nice work, you almost got a kill! Too bad your grenade was a dud.",
+    "That play was like using a Gjallarhorn on a group of Dregs. Overkill.",
+    "Are you sure you're a Hunter? I think you're just an NPC in the wrong subclass.",
+    "You’re playing like you're still stuck on the Cosmodrome tutorial.",
+    "That move was as effective as trying to kill a Kell with a hand cannon from across the map.",
+    "That’s a play worthy of a *Destiny 1* PvP match. Everyone’s confused and no one’s having fun.",
+    "Bro, even a Fallen Shank could dodge that shot.",
+    "You’re running around like a Warlock with no Armor of Light. Good luck out there.",
+    "I’d say you were using a low-level weapon, but that’s an insult to green gear.",
+    "You know it's bad when even Eris Morn is like, 'Not again.'",
+    "Did you just try to raid solo with a green weapon? That’s like showing up to the Vault of Glass with a potato gun.",
+    "I’ve seen more coordination in a 6v6 match of Control with six randoms.",
+    "You’re playing like you’re trying to teach a Cabal how to raid.",
+    "That was like trying to do a flawless run in the Crucible with a Rocket Launcher. Just no.",
+    "Nice super, too bad it was wasted on a couple of Scorn. Real threat, huh?",
+    "You’ve got the timing of a Hunter trying to dodge in the middle of a rocket barrage.",
+    "Even a Fallen Kalli would do better in Gambit than you just did in that invasion.",
+    "You’re running around like you’re trying to solo the Last Wish raid with a bow.",
+    "That was more embarrassing than when we all realized the Taken weren't really gone in Destiny 2.",
+    "You missed your shot like a Titan trying to jump across the *Leviathan* without Wings of Sacred Dawn.",
+    "I think you’d have better luck winning a game of Crucible with a PvE loadout.",
+    "That play was as smooth as trying to revive during a heavy phase in the *Leviathan* raid.",
+    "Bro, you're playing Destiny like you just picked up the game during *Season of the Splicer*.",
+    "Did you just pop your super and then miss everything? That’s a real *Titan* move.",
+    "I’ve seen more movement from a Vex Minotaur stuck in a wall.",
+    "You’re as clueless as a Hunter with no throwing knives trying to melee in the Crucible.",
+    "That was like running into the Cabal’s *Red Legion* with a broken sparrow and no ammo.",
+    "You’re acting like you're the *Crota* raid's easiest encounter and not the final boss.",
+    "That was as bad as trying to get a flawless completion of *Prison of Elders* in Destiny 1 with no revives.",
+    "You’re moving around like a Warlock without the *Dawnblade* glide perk.",
+    "Did you really just try to revive in the middle of a *Nightfall*? That’s like reading the grimoire cards in reverse.",
+    "You’re the kind of player who spends 20 minutes in the Tower just to wipe in the first 5 minutes of a raid.",
+    "Is that your version of clutching the *Vault of Glass* solo? Looked more like a wipe.",
+    "That was as effective as a Hunter trying to *Golden Gun* an Archon Priest from across the map.",
+    "I’ve seen more finesse in the Crucible with a primary weapon and no perks.",
+    "Trying to beat that boss with your gear is like trying to take on Riven with a *Zalo Supercell*.",
+    "You’re playing like you're still figuring out how to use the Ghost during a *Destiny 2* strike.",
+    "That move was as useful as using a *Plan C* in PvE. Nice try, though.",
+    "Your gameplay is like trying to kill a Taken Acolyte with a fusion rifle at point-blank range.",
+    "That was like trying to solo a *Nightmare Hunt* with no mods and no heavy ammo.",
+    "Bro, you missed that super like you were trying to hit a *Vex Minotaur* with a Scout Rifle from orbit.",
+    "That was as bad as trying to do a *Nightfall* without a proper burn. You’re just setting yourself up to fail."
+
 ]
+
+
 
 
 # Function to handle adding more banned users
@@ -211,7 +277,7 @@ def add_banned_ids():
 # Handle banned users' messages and timeout inappropriate ones
 async def handle_banned_users(message):
     # Check if the message contains "snake" and if the user is banned
-    if "snake" in message.content.lower() and message.author.id in bannedidlist:
+    if "snake" in message.content.lower(): #and message.author.id in bannedidlist:
         print(f"Message from {message.author.name} found.")
 
         # Send a random response to the user
