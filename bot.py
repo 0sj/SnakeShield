@@ -24,10 +24,6 @@ with open('insults.txt', 'r') as file:
 
 
 
-# Possible responses for banned users
-possible_reply = []
-
-
 
 
 # Function to handle adding more banned users
@@ -66,7 +62,7 @@ async def handle_banned_users(message):
                     # Fetch the member from the guild (forces an API call)
                     member = await guild.fetch_member(message.author.id)
                     
-                    # Apply a 5-minute timeout for inappropriate content
+                    # Send a random response and timeout the user for 5 minutes
                     await message.channel.send(random.choice(possible_reply), reference=message)
                     await member.timeout(datetime.timedelta(minutes=5), reason="Inappropriate message content")
                     print(f"User {member.name} has been timed out.")
